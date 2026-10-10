@@ -4,139 +4,210 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Entropy Café · Your daily cup of curiosity</title>
-<meta name="description" content="Entropy Café answers one real science question a day with clear animation. Physics, math, biology, engineering and space.">
-<meta property="og:title" content="Entropy Café">
-<meta property="og:description" content="One real science question a day, answered with clear animation.">
-<meta property="og:image" content="https://wadra.github.io/entropycafe_website/logo.png">
+<meta name="description" content="Entropy Café answers one real science question a day with clear animation. Physics, space, biology, engineering and more.">
+<meta property="og:title" content="Entropy Café · Your daily cup of curiosity">
+<meta property="og:description" content="Entropy Café answers one real science question a day with clear animation. Physics, space, biology, engineering and more.">
+<meta property="og:image" content="https://wadra.github.io/entropycafe_website/img/banner.jpg">
 <link rel="icon" href="logo.png">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="home">
+<body class="site home">
+<a class="skip" href="#main">Skip to content</a>
 <nav class="top">
-  <a class="brand" href="./"><img src="logo.png" alt="" width="36" height="36">Entropy Café</a>
-  <div class="top-links"><a href="#videos">Videos</a><a href="#books">Books</a><a href="#about">About</a></div>
+  <div class="wrap">
+    <a class="brand" href="./"><span class="logo " aria-hidden="true"><svg viewBox="-300 -330 600 580"><g id="mark">
+  <!-- orbit rings (atom) around the cup -->
+  <ellipse cx="0" cy="-10" rx="250" ry="92" fill="none" stroke="#38BDF8" stroke-width="10" opacity="0.9" transform="rotate(-24)"/>
+  <ellipse cx="0" cy="-10" rx="250" ry="92" fill="none" stroke="#A78BFA" stroke-width="10" opacity="0.85" transform="rotate(24)"/>
+  <circle cx="226" cy="-110" r="17" fill="#38BDF8"/>
+  <circle cx="-218" cy="-116" r="17" fill="#A78BFA"/>
+  <!-- cup -->
+  <path d="M -130 -40 L 130 -40 L 110 120 Q 100 170 50 170 L -50 170 Q -100 170 -110 120 Z" fill="#F8F1E4"/>
+  <path d="M 128 -10 Q 205 -10 200 55 Q 195 118 118 110" fill="none" stroke="#F8F1E4" stroke-width="26" stroke-linecap="round"/>
+  <path d="M -130 -40 L 130 -40 L 126 -8 L -126 -8 Z" fill="#E7D8BD"/>
+  <ellipse cx="0" cy="-40" rx="130" ry="20" fill="#6B3F24"/>
+  <ellipse cx="0" cy="-44" rx="110" ry="12" fill="#8A5634"/>
+  <!-- saucer -->
+  <ellipse cx="0" cy="182" rx="190" ry="26" fill="#E7D8BD"/>
+  <!-- steam that dissolves into scattered particles (entropy) -->
+  <path d="M -50 -70 C -90 -120, -10 -150, -50 -205" fill="none" stroke="#F5B342" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 30 -70 C -10 -125, 70 -150, 30 -215" fill="none" stroke="#F5B342" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+  <g fill="#F5B342">
+    <circle cx="-52" cy="-238" r="9"/><circle cx="-20" cy="-262" r="7"/><circle cx="-70" cy="-282" r="6"/>
+    <circle cx="38" cy="-248" r="9"/><circle cx="70" cy="-276" r="6"/><circle cx="12" cy="-298" r="5"/>
+    <circle cx="-38" cy="-318" r="4"/><circle cx="52" cy="-322" r="4"/><circle cx="96" cy="-300" r="3.5"/>
+  </g>
+</g>
+</svg></span><span>Entropy Café</span></a>
+    <div class="top-links">
+      <a href="videos.html">Videos</a><a href="./#books">Books</a><a href="about.html">About</a>
+      <a class="btn primary small" href="https://www.youtube.com/@entropycafe?sub_confirmation=1">Subscribe</a>
+    </div>
+  </div>
 </nav>
-
+<main id="main">
 <header class="hero">
-  <div class="orbit" aria-hidden="true"><img src="logo.png" alt="" width="200" height="200"></div>
-  <h1>Your daily cup of <em>curiosity</em>.</h1>
-  <p class="lede">One real question about the universe, answered with clear animation. No jargon, just the “aha!” moment.</p>
-  <p class="cta">
-    <a class="btn primary" href="https://www.youtube.com/@entropycafe">Watch on YouTube</a>
-    <a class="btn" href="https://www.instagram.com/entropy.cafe.science/">Instagram</a>
-    <a class="btn" href="https://www.tiktok.com/@entropycafe">TikTok</a>
-  </p>
-  <ul class="chips" aria-label="Topics">
-    <li>Physics</li><li>Math</li><li>Biology</li><li>AI &amp; Engineering</li><li>Space</li>
-  </ul>
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <p class="eyebrow">Science, explained in motion</p>
+      <h1>Your daily cup of <em>curiosity</em>.</h1>
+      <p class="lede">One real question about the universe, answered with clear animation. No jargon, just the “aha!” moment.</p>
+      <p class="cta">
+        <a class="btn primary" href="https://www.youtube.com/@entropycafe">Watch on YouTube</a>
+        <a class="btn" href="videos.html">Browse the videos</a>
+      </p>
+      <p class="social">Also on <a href="https://www.instagram.com/entropy.cafe.science/">Instagram</a> and <a href="https://www.tiktok.com/@entropycafe">TikTok</a></p>
+    </div>
+    <div class="hero-art reveal">
+      <span class="eq e1" aria-hidden="true">S = k ln W</span><span class="eq e2" aria-hidden="true">E = mc²</span><span class="eq e3" aria-hidden="true">F = ma</span>
+      <a class="feature" href="https://www.youtube.com/watch?v=LrMiKz4gIHo">
+        <span class="thumb"><img src="thumbs/LrMiKz4gIHo.jpg" alt="" width="640" height="360"><span class="play" aria-hidden="true"></span></span>
+        <span class="feature-text"><span class="card-meta">Latest deep dive</span><span class="card-title">Why Aren't Roller Coaster Loops Perfect Circles?</span></span>
+      </a>
+    </div>
+  </div>
 </header>
 
-<main>
-  <section id="videos">
-    <h2>Deep dives</h2>
-    <p class="section-note">A longer explainer every week.</p>
-    <ul class="grid wide">
-      <li><a class="card" href="https://www.youtube.com/watch?v=LrMiKz4gIHo">
-        <img src="thumbs/LrMiKz4gIHo.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Aren't Roller Coaster Loops Perfect Circles?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=lFgBQprTJiI">
-        <img src="thumbs/lFgBQprTJiI.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Can't You Breathe Through a 2-Metre Snorkel?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=yAzXlsdHdSY">
-        <img src="thumbs/yAzXlsdHdSY.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">How Do You Dig a Tunnel Under a River Without the River Pouring In?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=SIKAkvs3aoc">
-        <img src="thumbs/SIKAkvs3aoc.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Your Heart Beats 3 Billion Times and Never Rests. Why Doesn't It Get Tired?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=2PHwtphY25M">
-        <img src="thumbs/2PHwtphY25M.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Is There a Speed Where You'd Stop Aging? (Your GPS Already Knows)</span>
-      </a></li>
-    </ul>
+<section class="stats" aria-label="The channel in numbers">
+  <div class="wrap stats-grid">
+    <div class="stat reveal"><b data-count="22">22</b><span>questions answered</span></div>
+    <div class="stat reveal"><b data-count="5">5</b><span>deep dives</span></div>
+    <div class="stat reveal"><b data-count="6">6</b><span>fields of science</span></div>
+    <div class="stat reveal"><b>&lt; 60 s</b><span>for every Short</span></div>
+  </div>
+</section>
 
-    <h2>Latest Shorts</h2>
-    <p class="section-note">A new question most days, answered in under a minute.</p>
-    <ul class="grid">
-      <li><a class="card" href="https://www.youtube.com/watch?v=R-E58-oAwu8">
-        <img src="thumbs/R-E58-oAwu8.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Does a Mirror Swap Left and Right but Not Up and Down?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=MwzSx87dSso">
-        <img src="thumbs/MwzSx87dSso.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Is a 660-Tonne Steel Ball Hanging Inside One of the World's Tallest Skyscrapers?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=UH8TiU-_Jjw">
-        <img src="thumbs/UH8TiU-_Jjw.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Your Blood Is Never Blue. So Why Do Your Veins Look Blue?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=LP9dJIgWTT4">
-        <img src="thumbs/LP9dJIgWTT4.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Do Bubbles Chew Holes in a Bronze Ship Propeller?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=-sFlDflhY6E">
-        <img src="thumbs/-sFlDflhY6E.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">You're Moving at 2 Million km/h Right Now. Why Can't You Feel It?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=v6BCLOQDG7M">
-        <img src="thumbs/v6BCLOQDG7M.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Bernoulli or Newton: Which One Really Lifts a Plane?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=gmUbRtGNGnc">
-        <img src="thumbs/gmUbRtGNGnc.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">How Does a Wing Actually Lift a Plane? (Your Textbook's Answer Is Wrong)</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=VhIoQEY8bSI">
-        <img src="thumbs/VhIoQEY8bSI.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">How Can a Building Fall Straight Down Into Its Own Footprint?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=ZG6vG3PNk2k">
-        <img src="thumbs/ZG6vG3PNk2k.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">How Does a Self-Driving Car Know Where It Is to Within a Few Centimetres?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=XrHxT7mNjys">
-        <img src="thumbs/XrHxT7mNjys.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Microplastics Are in Your Blood. How Do Plastic Bits Get Past Your Gut?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=r6dXznw6mj8">
-        <img src="thumbs/r6dXznw6mj8.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Does the Ocean Have Two High Tides a Day When the Moon Only Passes Once?</span>
-      </a></li>
-      <li><a class="card" href="https://www.youtube.com/watch?v=OgwEfNe9krY">
-        <img src="thumbs/OgwEfNe9krY.jpg" alt="" width="640" height="360" loading="lazy">
-        <span class="card-title">Why Do You Steer LEFT to Turn a Motorcycle Right?</span>
-      </a></li>
-    </ul>
-    <p class="more"><a class="btn" href="https://www.youtube.com/@entropycafe/videos">See every video on YouTube</a></p>
-  </section>
+<section class="wrap split" id="entropy">
+  <div class="reveal">
+    <p class="eyebrow">Why “Entropy”?</p>
+    <h2>Because everything spreads out.</h2>
+    <p>The smell of fresh coffee never stays in the cup. It drifts across the room and never gathers itself back. Physicists call that tendency <strong>entropy</strong>: there are vastly more ways for things to be spread out than to be neatly gathered, so spread out is what you get.</p>
+    <p>Curiosity works the same way. One good question never stays put, so every day we pour a new one.</p>
+  </div>
+  <figure class="entropy reveal" id="entropyFig">
+    <svg viewBox="0 0 600 260" role="img" aria-label="Dots that start gathered in a cup and spread out to fill the room">
+      <rect x="1" y="1" width="598" height="258" rx="18" class="room"/>
+      <path d="M70 108h104l-8 86q-3 14-18 14H96q-15 0-18-14z" class="cup"/><path d="M174 122q30 0 28 26t-34 24" class="cup"/>
+      <g class="dots"><circle cx="88" cy="118" r="5" style="--dx:71px;--dy:98px;--d:0.31s"/><circle cx="101" cy="118" r="5" style="--dx:430px;--dy:-82px;--d:0.43s"/><circle cx="114" cy="118" r="5" style="--dx:111px;--dy:-81px;--d:0.03s"/><circle cx="127" cy="118" r="5" style="--dx:434px;--dy:110px;--d:0.27s"/><circle cx="140" cy="118" r="5" style="--dx:134px;--dy:22px;--d:0.30s"/><circle cx="153" cy="118" r="5" style="--dx:297px;--dy:70px;--d:0.21s"/><circle cx="88" cy="131" r="5" style="--dx:198px;--dy:72px;--d:0.18s"/><circle cx="101" cy="131" r="5" style="--dx:189px;--dy:-86px;--d:0.37s"/><circle cx="114" cy="131" r="5" style="--dx:366px;--dy:-31px;--d:0.09s"/><circle cx="127" cy="131" r="5" style="--dx:433px;--dy:-80px;--d:0.23s"/><circle cx="140" cy="131" r="5" style="--dx:136px;--dy:-83px;--d:0.06s"/><circle cx="153" cy="131" r="5" style="--dx:213px;--dy:56px;--d:0.04s"/><circle cx="88" cy="144" r="5" style="--dx:269px;--dy:75px;--d:0.13s"/><circle cx="101" cy="144" r="5" style="--dx:248px;--dy:-45px;--d:0.16s"/><circle cx="114" cy="144" r="5" style="--dx:193px;--dy:30px;--d:0.15s"/><circle cx="127" cy="144" r="5" style="--dx:-12px;--dy:64px;--d:0.31s"/><circle cx="140" cy="144" r="5" style="--dx:95px;--dy:89px;--d:0.24s"/><circle cx="153" cy="144" r="5" style="--dx:-27px;--dy:-65px;--d:0.46s"/><circle cx="88" cy="157" r="5" style="--dx:260px;--dy:-29px;--d:0.09s"/><circle cx="101" cy="157" r="5" style="--dx:163px;--dy:-94px;--d:0.00s"/><circle cx="114" cy="157" r="5" style="--dx:289px;--dy:27px;--d:0.07s"/><circle cx="127" cy="157" r="5" style="--dx:196px;--dy:23px;--d:0.44s"/><circle cx="140" cy="157" r="5" style="--dx:91px;--dy:-46px;--d:0.32s"/><circle cx="153" cy="157" r="5" style="--dx:324px;--dy:-26px;--d:0.24s"/><circle cx="88" cy="170" r="5" style="--dx:366px;--dy:55px;--d:0.16s"/><circle cx="101" cy="170" r="5" style="--dx:407px;--dy:-101px;--d:0.14s"/><circle cx="114" cy="170" r="5" style="--dx:429px;--dy:5px;--d:0.10s"/><circle cx="127" cy="170" r="5" style="--dx:-69px;--dy:-83px;--d:0.41s"/><circle cx="140" cy="170" r="5" style="--dx:300px;--dy:-100px;--d:0.25s"/><circle cx="153" cy="170" r="5" style="--dx:285px;--dy:-57px;--d:0.16s"/><circle cx="88" cy="183" r="5" style="--dx:132px;--dy:-114px;--d:0.44s"/><circle cx="101" cy="183" r="5" style="--dx:39px;--dy:-16px;--d:0.35s"/><circle cx="114" cy="183" r="5" style="--dx:154px;--dy:-101px;--d:0.26s"/><circle cx="127" cy="183" r="5" style="--dx:85px;--dy:-136px;--d:0.19s"/><circle cx="140" cy="183" r="5" style="--dx:142px;--dy:-1px;--d:0.43s"/><circle cx="153" cy="183" r="5" style="--dx:295px;--dy:-109px;--d:0.34s"/></g>
+    </svg>
+    <figcaption><span class="state">Low entropy: gathered in the cup, few arrangements</span><button type="button" class="btn small" id="stir">Let it spread</button></figcaption>
+  </figure>
+</section>
 
-  <section id="books">
-    <h2>Books</h2>
-    <div class="book">
-      <a href="https://www.amazon.com/dp/B0HLD6KB7K"><img src="book-growing-up-with-ai.jpg" alt="Cover of Growing Up with AI" width="640" height="640" loading="lazy"></a>
-      <div>
-        <p class="eyebrow">Entropy Café Kids · Book 1 · Ages 5 to 8</p>
-        <h3>Growing Up with AI</h3>
-        <p>A warm, honest picture book that gives children a friendly first look at what AI is, and how to use it smart, safe and kind. Zara, Sami and Bit the helper robot find the answer over a cup of cocoa at the Entropy Café.</p>
-        <p><a class="btn primary" href="https://www.amazon.com/dp/B0HLD6KB7K">See it on Amazon</a></p>
-        <p class="soon"><strong>Coming next:</strong> 365 Cups of Curiosity, a year of science questions for grown-ups.</p>
-      </div>
+<section class="band-light">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">What we explore</p>
+      <h2>Questions from every corner of science.</h2>
+      <p>The chart shows how many published videos each field has so far. Point at a bar to see a question from that field.</p>
+      <p><a class="btn" href="videos.html">See all 22 videos</a></p>
     </div>
-  </section>
+    <ul class="bars reveal" aria-label="Published videos per field">
+      <li style="--c:#0ea5e9;--w:100%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/></svg></span>
+        <span class="bar-main"><span class="bar-name">Physics<b>8</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“Why Aren't Roller Coaster Loops Perfect Circles?”</span></span>
+      </li>
+      <li style="--c:#e4572e;--w:50%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6c0 5-7 9.4-7 9.4z"/></svg></span>
+        <span class="bar-main"><span class="bar-name">Human body &amp; biology<b>4</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“Your Blood Is Never Blue. So Why Do Your Veins Look Blue?”</span></span>
+      </li>
+      <li style="--c:#d98a0b;--w:50%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span>
+        <span class="bar-main"><span class="bar-name">Engineering &amp; inventions<b>4</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“Why Is a 660-Tonne Steel Ball Hanging Inside One of the World's Tallest Skyscrapers?”</span></span>
+      </li>
+      <li style="--c:#7c5ce0;--w:38%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><ellipse cx="12" cy="12" rx="11" ry="3.4" transform="rotate(-20 12 12)"/></svg></span>
+        <span class="bar-main"><span class="bar-name">Space &amp; astronomy<b>3</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“You're Moving at 2 Million km/h Right Now. Why Can't You Feel It?”</span></span>
+      </li>
+      <li style="--c:#0f9d8a;--w:13%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></span>
+        <span class="bar-main"><span class="bar-name">Earth &amp; weather<b>1</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“Why Does the Ocean Have Two High Tides a Day When the Moon Only Passes Once?”</span></span>
+      </li>
+      <li style="--c:#4f46e5;--w:13%" tabindex="0">
+        <span class="bar-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></span>
+        <span class="bar-main"><span class="bar-name">AI &amp; computers<b>1</b></span><span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-sample">“How Does a Self-Driving Car Know Where It Is to Within a Few Centimetres?”</span></span>
+      </li>
+    </ul>
+  </div>
+</section>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>Entropy Café started with a simple idea: the best science questions are the ones you already wonder about. Why does a mirror swap left and right but not up and down? What really lifts a plane? Why can't you breathe through a long snorkel?</p>
-    <p>Each video takes one question and works through it with animation, from the everyday puzzle to the real answer. New Shorts arrive most days and a deeper dive every week. Pull up a chair. The universe is brewing.</p>
-  </section>
-</main>
+<section class="wrap" id="how">
+  <div class="center reveal">
+    <p class="eyebrow">How a video is brewed</p>
+    <h2>From a question to an answer you can trust.</h2>
+  </div>
+  <ol class="steps">
+    <li class="reveal"><span class="step-n">1</span><h3>Start with a real question</h3><p>The kind you already wonder about: why a mirror swaps left and right, or what really lifts a plane.</p></li>
+    <li class="reveal"><span class="step-n">2</span><h3>Go to the source</h3><p>Research leans on primary and authoritative sources such as NASA, NIST, NOAA, CERN and peer-reviewed papers.</p></li>
+    <li class="reveal"><span class="step-n">3</span><h3>Check every number</h3><p>Each figure is recomputed and logged in a fact-check table before the script is final. Estimates are called estimates.</p></li>
+    <li class="reveal"><span class="step-n">4</span><h3>Explain it in motion</h3><p>Clear animation and a calm voice carry you from the everyday puzzle to the “aha!” moment.</p></li>
+  </ol>
+</section>
 
-<footer>
-  <p class="follow"><a href="https://www.youtube.com/@entropycafe">YouTube</a><a href="https://www.instagram.com/entropy.cafe.science/">Instagram</a><a href="https://www.tiktok.com/@entropycafe">TikTok</a></p>
-  <p>© 2026 Entropy Café · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></p>
+<section class="band-dark">
+  <div class="wrap split">
+    <img class="reveal banner" src="img/banner.jpg" alt="Entropy Café banner: a steaming cup circled by two orbit rings" width="1400" height="684" loading="lazy">
+    <div class="reveal">
+      <p class="eyebrow">New every week</p>
+      <h2>Shorts all week. Deep dives on Sundays.</h2>
+      <p>Subscribe once and a fresh question arrives most days, with a longer explainer to settle into at the weekend.</p>
+      <p class="cta"><a class="btn primary" href="https://www.youtube.com/@entropycafe?sub_confirmation=1">Subscribe on YouTube</a><a class="btn ghost" href="https://www.instagram.com/entropy.cafe.science/">Follow on Instagram</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="books">
+  <div class="center reveal"><p class="eyebrow">Books</p><h2>From the café to the bookshelf.</h2></div>
+  <div class="book reveal">
+    <a class="book-cover" href="https://www.amazon.com/dp/B0HLD6KB7K"><img src="img/book-growing-up-with-ai.jpg" alt="Cover of Growing Up with AI" width="640" height="640" loading="lazy"></a>
+    <div>
+      <p class="card-meta">Entropy Café Kids · Book 1 · Ages 5 to 8</p>
+      <h3>Growing Up with AI</h3>
+      <p>A warm, honest picture book that gives children a friendly first look at what AI is, and how to use it smart, safe and kind. Zara, Sami and Bit the helper robot find the answer over a cup of cocoa at the Entropy Café.</p>
+      <ul class="ticks"><li>How AI learns from examples, and why it can be wrong</li><li>Why some information stays private</li><li>A Parents’ Corner and a mini glossary</li></ul>
+      <p><a class="btn primary" href="https://www.amazon.com/dp/B0HLD6KB7K">See it on Amazon</a></p>
+      <p class="soon"><strong>Coming next:</strong> 365 Cups of Curiosity, a year of science questions for grown-ups.</p>
+    </div>
+  </div>
+</section></main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div><a class="brand" href="./"><span class="logo " aria-hidden="true"><svg viewBox="-300 -330 600 580"><g id="mark">
+  <!-- orbit rings (atom) around the cup -->
+  <ellipse cx="0" cy="-10" rx="250" ry="92" fill="none" stroke="#38BDF8" stroke-width="10" opacity="0.9" transform="rotate(-24)"/>
+  <ellipse cx="0" cy="-10" rx="250" ry="92" fill="none" stroke="#A78BFA" stroke-width="10" opacity="0.85" transform="rotate(24)"/>
+  <circle cx="226" cy="-110" r="17" fill="#38BDF8"/>
+  <circle cx="-218" cy="-116" r="17" fill="#A78BFA"/>
+  <!-- cup -->
+  <path d="M -130 -40 L 130 -40 L 110 120 Q 100 170 50 170 L -50 170 Q -100 170 -110 120 Z" fill="#F8F1E4"/>
+  <path d="M 128 -10 Q 205 -10 200 55 Q 195 118 118 110" fill="none" stroke="#F8F1E4" stroke-width="26" stroke-linecap="round"/>
+  <path d="M -130 -40 L 130 -40 L 126 -8 L -126 -8 Z" fill="#E7D8BD"/>
+  <ellipse cx="0" cy="-40" rx="130" ry="20" fill="#6B3F24"/>
+  <ellipse cx="0" cy="-44" rx="110" ry="12" fill="#8A5634"/>
+  <!-- saucer -->
+  <ellipse cx="0" cy="182" rx="190" ry="26" fill="#E7D8BD"/>
+  <!-- steam that dissolves into scattered particles (entropy) -->
+  <path d="M -50 -70 C -90 -120, -10 -150, -50 -205" fill="none" stroke="#F5B342" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 30 -70 C -10 -125, 70 -150, 30 -215" fill="none" stroke="#F5B342" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+  <g fill="#F5B342">
+    <circle cx="-52" cy="-238" r="9"/><circle cx="-20" cy="-262" r="7"/><circle cx="-70" cy="-282" r="6"/>
+    <circle cx="38" cy="-248" r="9"/><circle cx="70" cy="-276" r="6"/><circle cx="12" cy="-298" r="5"/>
+    <circle cx="-38" cy="-318" r="4"/><circle cx="52" cy="-322" r="4"/><circle cx="96" cy="-300" r="3.5"/>
+  </g>
+</g>
+</svg></span><span>Entropy Café</span></a><p>Your daily cup of curiosity.</p></div>
+    <div><h2>Watch</h2><a href="https://www.youtube.com/@entropycafe">YouTube</a><a href="https://www.instagram.com/entropy.cafe.science/">Instagram</a><a href="https://www.tiktok.com/@entropycafe">TikTok</a></div>
+    <div><h2>Explore</h2><a href="videos.html">All videos</a><a href="./#books">Books</a><a href="about.html">About</a></div>
+    <div><h2>Legal</h2><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></div>
+  </div>
+  <p class="wrap copy">© 2026 Entropy Café</p>
 </footer>
+<script src="script.js" defer></script>
 </body>
 </html>
